@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ccs">
+      <UniqueIdentifier>{e416451f-e174-41c4-b194-1a38b76a69bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ges">
+      <UniqueIdentifier>{c6a4baed-0124-4fad-806c-b6ccb6e00b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ccs">
+      <UniqueIdentifier>{846d32dd-1c66-46af-b959-450d3faf971c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ges">
+      <UniqueIdentifier>{a99adcd3-2209-42a5-bace-5883bfeffe7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3D_Measure_CCS_Code_Refactoring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\cAcqEasy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CcsWork.cpp">
+      <Filter>Source Files\ccs</Filter>
+    </ClCompile>
+    <ClCompile Include="GesWork.cpp">
+      <Filter>Source Files\ges</Filter>
+    </ClCompile>
+    <ClCompile Include="CCSControl.cpp">
+      <Filter>Source Files\ccs</Filter>
+    </ClCompile>
+    <ClCompile Include="GESControl.cpp">
+      <Filter>Source Files\ges</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GES_CCS_Ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\cAcqEasy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\cAcqEasyType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Colorimetry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Mchr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\MchrDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\MchrError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\MchrType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Sawli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CcsWork.h">
+      <Filter>Header Files\ccs</Filter>
+    </ClInclude>
+    <ClInclude Include="GesWork.h">
+      <Filter>Header Files\ges</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCSControl.h">
+      <Filter>Header Files\ccs</Filter>
+    </ClInclude>
+    <ClInclude Include="GESControl.h">
+      <Filter>Header Files\ges</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GES_CCS_Ctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+</Project>

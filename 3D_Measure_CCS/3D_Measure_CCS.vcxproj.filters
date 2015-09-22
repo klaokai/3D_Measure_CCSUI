@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ccs">
+      <UniqueIdentifier>{42929450-087a-4ac8-af55-3f9517d57669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ges">
+      <UniqueIdentifier>{18f0ece7-089a-460b-8beb-791a1b8bd2f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3D_Measure_CCS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cAcqEasy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ccs_clean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ccs_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ccs_initial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ccs_work.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ges_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ges_initial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ges_measure_zero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ges_stop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ges_work.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cAcqEasy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cAcqEasyType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colorimetry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mchr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MchrDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MchrError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MchrType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sawli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ccs.h">
+      <Filter>Header Files\ccs</Filter>
+    </ClInclude>
+    <ClInclude Include="ccs_initial.h">
+      <Filter>Header Files\ccs</Filter>
+    </ClInclude>
+    <ClInclude Include="ccs_clean.h">
+      <Filter>Header Files\ccs</Filter>
+    </ClInclude>
+    <ClInclude Include="ccs_functions.h">
+      <Filter>Header Files\ccs</Filter>
+    </ClInclude>
+    <ClInclude Include="ccs_work.h">
+      <Filter>Header Files\ccs</Filter>
+    </ClInclude>
+    <ClInclude Include="ges.h">
+      <Filter>Header Files\ges</Filter>
+    </ClInclude>
+    <ClInclude Include="ges_work.h">
+      <Filter>Header Files\ges</Filter>
+    </ClInclude>
+    <ClInclude Include="ges_initial.h">
+      <Filter>Header Files\ges</Filter>
+    </ClInclude>
+    <ClInclude Include="ges_measure_zero.h">
+      <Filter>Header Files\ges</Filter>
+    </ClInclude>
+    <ClInclude Include="ges_stop.h">
+      <Filter>Header Files\ges</Filter>
+    </ClInclude>
+    <ClInclude Include="ges_ccs_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DLL_CHR.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="ges.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
